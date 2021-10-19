@@ -1,0 +1,63 @@
+body{
+    background:#61122f;
+    color:#fff;
+    font-size:16px;
+    
+}
+#nav-header{
+    background:rgb(206, 129, 142);
+    color:fff;
+    border:0;
+    border-radius:0;
+    text-align: center;
+
+}
+.navbar-header .navbar-brand {
+    font-size:1.5em;
+    color:#557c3e; 
+    text-shadow: 1px 3px 2px #222; 
+    font-weight: bold;
+    text-transform:uppercase;
+    font-family:'Lora',serif;
+   
+
+}
+#myNavbar .nav span{
+    color:black;
+    font-size:1.2em;
+}
+.navbar-header .navbar-brand:hover, .navbar-brand:focus{
+    text-decoration:none;
+}
+
+#main-content h1{
+    margin-bottom:30px;
+}
+#main-text{
+    background:gray;
+}
+@media (min-width:992px) and (max-width:1199px){
+    #main-content{
+        margin:0px auto;
+        text-align:center;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #main-content{
+        margin:0px auto;
+        text-align:center;
+    }
+}
+@media (max-width:767px){
+    #main-content{
+        margin:0px 20px;
+        text-align:center;
+    }
+}
+@media (max-width:479px){
+    #main-content{
+        margin:0px 20px;
+        text-align:center;
+       
+    }
+}
